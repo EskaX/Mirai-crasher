@@ -2,8 +2,7 @@ import telnetlib
 import socket
 import os
 os.system("cls")
-banner = """
-
+print = (""
  Welcome To The Mirai Exploit.      Project Remark.               
  Till We Fall.2022. Public Release Edition.        
  Made By EskaX
@@ -24,9 +23,8 @@ banner = """
 
 
  Last Update - [6/22/2022]      Exploit Status: Active !     
+"")
 
-"""
-print(banner)
 host = str(input("Enter CNC IP: "))
 port = int(input("Enter CNC Port: "))
 
