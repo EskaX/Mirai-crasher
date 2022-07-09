@@ -2,28 +2,7 @@ import telnetlib
 import socket
 import os
 os.system("cls")
-print = (""
- Welcome To The Mirai Exploit.      Project Remark.               
- Till We Fall.2022. Public Release Edition.        
- Made By EskaX
-
-                  
-                 
- STATE.......: PRIVATE                                                    
- HYPERPOWER..: XVII                                                       
- VERSION.....: B44                                                        
- SCKET_INT...: INSTNC IV                ┬─┐┌─┐┌┬┐┌─┐┬─┐┬┌─                
- LSC.........: GL3.0                    ├┬┘├┤ │││├─┤├┬┘├┴┐                
- DESC........: C2XTLNT                  ┴└─└─┘┴ ┴┴ ┴┴└─┴ ┴                
- ALGORITHM...: AES-512                         Eskax                  
- PRJ-VAS.....: 84-34-243                                                  
- CCR.........: XX-3345-24                                                 
- DATA_TRMIT..: ACTIVE                                                     
- SRVERS_ON...: 3                                                          
-
-
- Last Update - [6/22/2022]      Exploit Status: Active !     
-"")
+print = ("Welcome To The Mirai Exploit.")
 
 host = str(input("Enter CNC IP: "))
 port = int(input("Enter CNC Port: "))
